@@ -1,0 +1,10 @@
+let a = setInterval(function, milliseconds); 
+clearInterval(a);
+
+setInterval() function is used to execute a specified function or piece of code repeatedly at a fixed time interval (in milliseconds). This continues until clearInterval() is called to stop the execution.
+
+num.toString().padStart(2, '0')
+
+element.classList.toggle("mystyle");
+
+setTimeout()

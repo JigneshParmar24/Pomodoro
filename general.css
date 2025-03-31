@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+:root{
+	--a : 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Source Code Pro", Roboto;
+}
+
+body {
+  background-color: black;
+  transition: 0.5s;
+
+}
+
+.header {
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    filter: invert(var(--a));
+}
+
+.header p{
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.main {
+    background-color: black;
+    height: 90vh;
+    filter: invert(var(--a));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timer {
+    background-color: white;
+    height: 400px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 200px;
+    color: black;
+    filter: invert(var(--a));
+
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 2px solid #121212;
+
+}
+
+.pomodoro, .break{
+    height: 50px;
+    width:  352px;
+    color: black;
+
+    font-size: 30px;
+    border: none;
+    border: 2px solid #121212;
+    font-weight: bold;
+}
+
+.pomodoro{
+    border-top-left-radius: 20px;
+    background-color: #121212;
+    color: white;
+}
+
+.break{
+    border-top-right-radius: 20px;
+    background-color: white;
+}
+
+.start:hover{
+    background-color: #121212;
+    color: white;
+    transition: 0.3s;
+}
+
+.break:active, .pomodoro:active, .start:active{
+    background-color: rgb(195, 59, 59);
+    transition: 0.05s;
+}
+
+.mode{
+    display: flex;
+    filter: invert(var(--a));
+}
+
+.start{
+    height: 50px;
+    width:  300px;
+    color: black;
+
+    font-size: 30px;
+    border: none;
+    border: 2px solid #121212;
+    font-weight: bold;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+.invert{
+    filter: invert(1);
+}
+
+
+
